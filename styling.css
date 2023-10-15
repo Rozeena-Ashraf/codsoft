@@ -1,22 +1,19 @@
-
-
 body {
     font-family: Arial, sans-serif;
+    line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-image: url(https://media.istockphoto.com/id/1371339413/photo/co-working-team-meeting-concept-businessman-using-smart-phone-and-digital-tablet-and-laptop.webp?b=1&amp;s=170667a&amp;w=0&amp;k=20&amp;c=GnW36mPEYr3TRpPZNLtT75u8v2HOczvRxGckWUN3hVg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #F9F3CC;
 }
 
 header {
-    background-color: #333;
+    background-color: #8EACCD;
+    color: #D7E5CA;
     padding: 20px;
 }
 
 nav ul {
     list-style-type: none;
-    margin: 0;
     padding: 0;
 }
 
@@ -26,29 +23,29 @@ nav ul {
     }
 
         nav ul li a {
-            color: white;
             text-decoration: none;
+            color: #333;
         }
 
-main {
+section {
     padding: 20px;
 }
 
-section {
+    section h1 {
+        margin-bottom: 20px;
+    }
+
+    section img {
+        max-width: 100%;
+        height: auto;
+    }
+
+.project {
     margin-bottom: 20px;
 }
 
-    section h1, section h2 {
-        color: #333;
-    }
-
-    section p {
-        margin-bottom: 10px;
-    }
-
 footer {
-    background-color: #333;
+    background-color: #8EACCD;
     padding: 20px;
     text-align: center;
-    color: white;
 }
